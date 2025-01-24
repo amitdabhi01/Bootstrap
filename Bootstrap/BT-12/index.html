@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BQ-12</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+  <section>
+
+    <div class="container mt-5 text-center">
+
+      <div class="accordion" id="parent">
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#first">
+              Accordion no 1
+            </button>
+          </h3>
+         <div class="accordion-collapse collapse show" id="first" data-bs-parent="#parent">
+          <div class="accordion-body">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga odit vel iusto explicabo numquam, libero temporibus optio asperiores exercitationem fugiat doloribus quisquam magnam, aliquam nulla debitis maiores esse voluptates accusamus.
+          </div>
+         </div>
+        </div>
+  
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#second" >
+              Accordion no 1
+            </button>
+          </h3>
+         <div class="accordion-collapse collapse" id="second"  data-bs-parent="#parent">
+          <div class="accordion-body">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga odit vel iusto explicabo numquam, libero temporibus optio asperiores exercitationem fugiat doloribus quisquam magnam, aliquam nulla debitis maiores esse voluptates accusamus.
+          </div>
+         </div>
+        </div>
+  
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button  collapsed" data-bs-toggle="collapse" data-bs-target="#third">
+              Accordion no 1
+            </button>
+          </h3>
+         <div class="accordion-collapse collapse" id="third"  data-bs-parent="#parent">
+          <div class="accordion-body">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga odit vel iusto explicabo numquam, libero temporibus optio asperiores exercitationem fugiat doloribus quisquam magnam, aliquam nulla debitis maiores esse voluptates accusamus.
+          </div>
+         </div>
+        </div>
+      </div>
+      
+    </div>
+
+  </section>
+</body>
+
+<script src="bootstrap.bundle.min.js"></script>
+</html>
