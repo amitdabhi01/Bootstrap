@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BQ-11</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+  <section>
+
+    <div class="container border p-3 mt-5 text-center">
+      <a href="#offcanvasExample" class="btn btn-primary" data-bs-toggle="offcanvas">
+        Link with href
+      </a>
+      <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" data-bs-target="staticBackdrop">
+        Button with data-bs-target
+      </button>
+
+      <div class="offcanvas offcanvas-start text-bg-dark" id="offcanvasExample" data-bs-backdrop="static">
+        <div class="offcanvas-header border">
+          <h3 class="offcanvas-title">offcanvas</h3>
+          <button class="btn btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit voluptatum vero similique explicabo ipsum blanditiis quibusdam, sit optio maxime, aspernatur quae corporis esse doloribus ad. Ad, nemo qui obcaecati labore voluptate doloremque veniam cum dicta ipsum, enim pariatur. Ad, fugit.</p>
+          <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+              dropdown
+            </button>
+            <ul class="dropdown-menu">
+              <li class="dropdown-item">one</li>
+              <li class="dropdown-item">two</li>
+              <li class="dropdown-item">three</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+<script src="bootstrap.bundle.min.js"></script>
+</html>
